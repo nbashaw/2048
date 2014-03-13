@@ -466,7 +466,7 @@ hr {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
-    background: #bbada0;
+    background: #eee;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -531,7 +531,7 @@ hr {
     margin-right: 10px;
     float: left;
     border-radius: 3px;
-    background: rgba(238, 228, 218, 0.35); }
+    background: #fafafa; }
     .grid-cell:last-child {
       margin-right: 0; }
 
