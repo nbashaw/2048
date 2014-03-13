@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   background: #fff;
-  color: #776e65;
+  color: #444;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -20,6 +20,7 @@ h1.title {
   font-weight: bold;
   margin: 0;
   display: block;
+  position: relative;
   float: left; }
 
 @-webkit-keyframes move-up {
@@ -56,14 +57,14 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #eee;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
-  color: white;
+  color: #888;
   margin-top: 8px;
   text-align: center; }
   .score-container:after, .best-container:after {
@@ -75,18 +76,18 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
-  .score-container .score-addition, .best-container .score-addition {
+    color: #aaa; }
+  .title .score-addition, .best-container .score-addition {
     position: absolute;
-    right: 30px;
+    left: -50px;
     color: red;
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
     color: rgba(119, 110, 101, 0.9);
     z-index: 100;
-    -webkit-animation: move-up 600ms ease-in;
-    -moz-animation: move-up 600ms ease-in;
+    -webkit-animation: move-up 800ms ease-in;
+    -moz-animation: move-up 800ms ease-in;
     -webkit-animation-fill-mode: both;
     -moz-animation-fill-mode: both; }
 
@@ -303,8 +304,8 @@ hr {
   z-index: 10;
   font-size: 55px;
   color: #fff;
-  -webkit-transition: 100ms ease-in-out;
-  -moz-transition: 100ms ease-in-out;
+  -webkit-transition: 120ms ease-in-out;
+  -moz-transition: 120ms ease-in-out;
   -webkit-transition-property: top, left;
   -moz-transition-property: top, left; }
   .tile.tile-2 { background: #3498db; }
@@ -380,8 +381,8 @@ hr {
     -moz-transform: scale(1); } }
 
 .tile-new {
-  -webkit-animation: appear 200ms ease 100ms;
-  -moz-animation: appear 200ms ease 100ms;
+  -webkit-animation: appear 400ms ease 100ms;
+  -moz-animation: appear 400ms ease 100ms;
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both; }
 
@@ -426,8 +427,8 @@ hr {
 
 .tile-merged {
   z-index: 20;
-  -webkit-animation: pop 200ms ease 100ms;
-  -moz-animation: pop 200ms ease 100ms;
+  -webkit-animation: pop 400ms ease 100ms;
+  -moz-animation: pop 400ms ease 100ms;
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both; }
 
