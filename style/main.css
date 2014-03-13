@@ -457,6 +457,11 @@ hr {
     font-size: 27px;
     margin-top: 15px; }
 
+  .tile {
+    -webkit-transition: 90ms ease-in-out;
+    -moz-transition: 90ms ease-in-out;
+  }
+
   .container {
     width: 280px;
     margin: 0 auto; }
